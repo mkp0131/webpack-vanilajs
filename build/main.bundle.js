@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("7 + 5 = ",12)})();
+!function(){"use strict";console.log("7 + 5 = ",12)}();

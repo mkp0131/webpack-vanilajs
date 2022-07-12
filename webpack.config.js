@@ -2,6 +2,7 @@ var path = require('path');
 
 module.exports = {
   entry: './src/js/app.js',
+  target: ['web', 'es5'], // IE11 대응
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'main.bundle.js',
@@ -20,5 +21,5 @@ module.exports = {
       },
     ],
   },
-  // devtool: 'source-map',
+  // devtool: 'source-map', // 개발에서 소스코드 보고싶을때 사용
 };
